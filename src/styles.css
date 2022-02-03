@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+}
+/*NavBar*/
+.nav1 {
+  display: flex;
+  justify-content: center;
+  padding: 100;
+  background-color: rgba(59, 175, 69, 0.705);
+  align-items: center;
+}
+
+img {
+  width: 400px;
+}
+
+.ul1 {
+  display: flex;
+  gap: 30px;
+  font-size: 1.2em;
+  padding-right: 0px;
+  margin-top: 0px;
+  border-bottom: 0px;
+}
+
+.li1 {
+  list-style: none;
+  padding: 20px;
+  width: 70px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.botao {
+  align-items: center;
+}
+
+/*Tabela*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th,
+td {
+  padding: 10px 20px;
+  border: 1px solid #000;
+}
+
+/*Deixa os botões invisiveis*/
+@media only print {
+  div {
+    visibility: hidden;
+  }
+}
